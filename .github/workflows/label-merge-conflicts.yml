@@ -12,11 +12,8 @@ name: Label Merge Conflicts
 # plus `pull_request_target: [synchronize]`, but on a repo with Superset's PR
 # volume that combination would re-sweep the entire open-PR list on every
 # merge to master *and* every push to *any* open PR - many times an hour.
-# A schedule bounds that to a fixed, predictable cadence instead; adjust it
-# if 2 hours turns out to be too slow or too chatty in practice.
+# Run it manually instead, when the backlog needs a re-label sweep.
 on:
-  schedule:
-    - cron: "0 */2 * * *"
   workflow_dispatch:
 
 # Avoid two full backlog sweeps racing (a manual workflow_dispatch landing

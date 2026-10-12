@@ -347,7 +347,7 @@
     "style-loader": "^4.0.0",
     "stylelint": "^17.14.1",
     "swc-loader": "^0.2.7",
-    "ts-jest": "^29.4.12",
+    "ts-jest": "^29.4.14",
     "tscw-config": "^1.1.2",
     "tsx": "^4.23.10",
     "typescript": "5.4.5",

@@ -150,7 +150,7 @@ crate = ["sqlalchemy-cratedb>=0.43.1, <1"]
 d1 = [
     "superset-engine-d1>=0.1.0",
     "sqlalchemy-d1>=0.1.0",
-    "dbapi-d1>=0.1.0",
+    "dbapi-d1>=0.1.1",
 ]
 databend = ["databend-sqlalchemy>=0.5.5, <1.0"]
 databricks = [
